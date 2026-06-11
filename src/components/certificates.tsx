@@ -32,7 +32,7 @@ function Certificates() {
           <div className="bg-gray-900 p-6 rounded-lg shadow-md">
             <h3 className="text-white text-xl font-semibold mb-2">Bangkit Academy - Machine Learning</h3>
             <p className="text-gray-400 mb-4">Bangkit Academy led by Google, Tokopedia, Gojek, & Traveloka</p>
-            <a href="#" className="text-indigo-600 hover:underline">Credential ID BA22/GRAD/XXII-07/M2014F1382</a>
+            <a className="text-indigo-600 hover:underline">Credential ID BA22/GRAD/XXII-07/M2014F1382</a>
           </div>
         </div>
       </div>
