@@ -7,7 +7,7 @@ function Navbar() {
   const toggleMenu = () => setIsOpen(prev => !prev)
 
   return (
-    <nav className="bg-indigo-600 text-white p-4 sticky top-0 z-50">
+    <nav className="bg-primary p-4 sticky top-0 z-50">
       <div className="container mx-auto flex justify-between items-center">
         <h1 className="text-2xl font-bold">My Portfolio</h1>
 
@@ -32,7 +32,7 @@ function Navbar() {
 
       {/* Mobile menu */}
       <div
-        className={`md:hidden absolute left-0 w-full bg-indigo-600 transition-all duration-100 ease-in-out ${
+        className={`md:hidden absolute left-0 w-full bg-primary transition-all duration-100 ease-in-out ${
           isOpen ? "h-screen opacity-100" : "max-h-0 opacity-0 overflow-hidden"
         }`}
       >
